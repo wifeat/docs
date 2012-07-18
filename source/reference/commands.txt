@@ -972,7 +972,8 @@ Geospatial Commands
                              linear units (i.e. miles or kilometers)
                              by multiplying by the radius of the
                              Earth.
-
+   :field spherical: {spherical : true, maxDistance : 2500/6378137, distanceMultiplier: 6378137} return the meters  
+                     and the maxDistance is 2500 meters
    .. read-lock, slave-ok
 
 .. dbcommand:: geoSearch
